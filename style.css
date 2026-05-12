@@ -11,6 +11,26 @@ body {
     padding: 40px 20px;
 }
 
+.navegacao-inicio {
+display: flex;
+align-items: center;
+justify-content: space-around;
+background: #3498db;
+margin-bottom: 50px;
+
+}
+.navegacao-inicio a{
+color: aliceblue;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.8rem;
+text-decoration: none;
+cursor: pointer;
+}
+.navegacao-inicio a:hover{
+color: wheat;
+}
+/* erika ate aqui*/
+
 
 header {
     text-align: center;
