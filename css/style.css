@@ -16,6 +16,16 @@ cursor: pointer;
 .navegacao-inicio a:hover{
 color: wheat;
 }
+
+.logo_index{
+display: block;
+margin: auto;
+  width: 420px;
+    object-fit: cover;
+
+}
+/*formulario */
+
 form{
 text-align: center;
 font-weight: bold;
@@ -41,6 +51,90 @@ text-align: center;
     border: 1px solid #e1e8ed;
 
 }
+/*pagina parceiros*/
+
+.parceiros {
+    text-align: center;
+    padding: 40px 20px;
+    color: #3498db;
+}
+
+.lista-parceiros {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+    display: flex;
+    justify-content: center;/* Centraliza os parceiros */
+    align-items: center;
+    gap: 60px; /* Espaço entre os logotipos */
+    flex-wrap: wrap; /* Faz quebrar a linha se a tela for pequena */
+    margin-top: 60px;
+    
+}
+.parceiros h2{
+font-size: 2.5rem;
+}
+.logo {
+    max-width: 250px; /* Define o tamanho máximo da largura do logo */
+    height: auto;
+    opacity: 0.7; /* Deixa um pouco transparente */
+    transition: opacity 0.3s ease;
+}
+.logo:hover {
+    opacity: 1; /* Volta a cor total quando o mouse passa por cima */
+}
+
+
+/*pagina sobre*/
+.cardequipe{
+display:flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.imgequipe{
+display: block;
+ margin-top: 15px;
+ max-width: 250px; 
+    height: auto;
+}
+
+h1,h2,h3,p,li{
+text-align: center;
+
+}
+h1{color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+} h2,h3{
+    font-size: 2.5rem;
+    color: oklch(38% 0.189 293.745);
+    line-height: 1.5;
+}p{
+    font-size: 1.3rem;
+    line-height: 1.7;
+}
+
+.listasobre{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+li{
+list-style: none;
+margin: 10px 5px 5px 5px;
+font-size: 1.3rem;
+
+
+
+}
+li:hover{
+background:  oklch(37.9% 0.146 265.522);
+color: white;
+border-radius: 10px;
+width: fit-content;
+}
+
+
 /* erika ate aqui*/
 * {
    margin: 0;
@@ -62,15 +156,15 @@ header {
     padding-bottom: 20px;
 }
 
-header h1 {
-    color: #2c3e50;
-    font-size: 2.2rem;
-    margin-bottom: 10px;
-}
+
 
 header p {
     color: #7f8c8d;
     font-size: 1.1rem;
+}
+
+main{
+flex: 1;
 }
 
 

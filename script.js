@@ -35,3 +35,4 @@ btn_enviar.addEventListener("click", (e) => {
 
     verificarTemperatura()
 })
+
